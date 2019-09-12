@@ -1,0 +1,48 @@
+article div div {
+    max-width: 300px;
+    border: 1px solid black;
+    margin: 1px 1px;
+    padding: 5px;
+    display: block;
+}
+article div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section {
+  background-color: white; 
+}
+body{
+    background-color: gray;
+}
+header{
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    font-style: italic;
+    font-family: cursive;
+}
+p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+button{
+   display: flex;
+   margin: auto;
+}
+div.empty {
+    background-color: lightcoral;
+}
+label{
+    color: white;
+}
+input{
+    color: black;
+}
+form{
+    color: white;
+}
